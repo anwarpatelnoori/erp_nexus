@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-19 15:45:44.734179",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "widget_or_dashboard",
+  "scope_type",
+  "demo_status",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "widget_or_dashboard",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Widget/Dashboard",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "scope_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Scope Type",
+   "options": "\nUpdate\nNew",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "demo_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Approved Status",
+   "options": "Pending\nCompleted"
+  },
+  {
+   "columns": 2,
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 15:45:44.734179",
+ "modified_by": "Administrator",
+ "module": "ERP Nexus",
+ "name": "ERP Nexus Widget and Dashboard Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

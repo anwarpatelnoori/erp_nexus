@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ERP-MOM-.YY.-.####",
+ "creation": "2025-11-20 09:56:26.953296",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "agenda",
+  "section_break_rrow",
+  "meeting_at",
+  "complete_date",
+  "column_break_onxs",
+  "meeting_location",
+  "section_break_bqvt",
+  "customer_requiremnts",
+  "cubezixone_solution"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Small Text",
+   "label": "Agenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_rrow",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "meeting_at",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Meeting At",
+   "reqd": 1
+  },
+  {
+   "fieldname": "complete_date",
+   "fieldtype": "Date",
+   "label": "Complete Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "meeting_location",
+   "fieldtype": "Select",
+   "label": "Meeting Location",
+   "options": "Remote\nOnsite",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_onxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bqvt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_requiremnts",
+   "fieldtype": "Text Editor",
+   "label": "Customer Requiremnts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cubezixone_solution",
+   "fieldtype": "Text Editor",
+   "label": "CubeZixOne Solution",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-20 09:59:57.827651",
+ "modified_by": "Administrator",
+ "module": "ERP Nexus",
+ "name": "ERP MOM",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

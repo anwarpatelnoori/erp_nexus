@@ -1,9 +1,15 @@
+from erpnext.projects.doctype.project import project_dashboard as _project_dashboard
+from erp_nexus.erp_nexus.overrides.project import project_dashboard as _custom_project_dashboard
+
 app_name = "erp_nexus"
 app_title = "ERP Nexus"
 app_publisher = "CubeZixOne"
 app_description = "ERP Project Management"
 app_email = "anwar.patel@cubezixone"
 app_license = "mit"
+
+# monkey patching
+_project_dashboard.get_data = _custom_project_dashboard.get_data
 
 # Apps
 # ------------------
