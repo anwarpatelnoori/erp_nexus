@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{title}-{date}",
+ "creation": "2025-11-20 10:02:42.983492",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "erp_client",
+  "date",
+  "type",
+  "type_of_attachment",
+  "attach_bvdl",
+  "column_break_mfea",
+  "title",
+  "description",
+  "section_break_wtgo",
+  "preview"
+ ],
+ "fields": [
+  {
+   "fieldname": "erp_client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ERP Client",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nWorkflow\nRequirement\nCustomization Requirement\nPrint Formats"
+  },
+  {
+   "fieldname": "type_of_attachment",
+   "fieldtype": "Select",
+   "label": "Type of Attachment",
+   "options": "\nPDF\nImage\nXLS\nTXT"
+  },
+  {
+   "fieldname": "attach_bvdl",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "column_break_mfea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_wtgo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "HTML",
+   "label": "Preview"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-20 12:06:39.160586",
+ "modified_by": "Administrator",
+ "module": "ERP Nexus",
+ "name": "ERP Client Documents",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
